@@ -31,10 +31,8 @@ int main()
 					printf(" ");
 				}
 			}
-			if(Index1 != UserNo)
-            {
+
                 printf("*\n");
             }
-		}
 	}
 }
