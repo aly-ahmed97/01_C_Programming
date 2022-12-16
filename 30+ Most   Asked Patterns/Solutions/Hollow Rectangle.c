@@ -11,6 +11,10 @@ int main()
 	{
 		printf("not a valid number");
 	}
+	else if(UserNo  == 1)
+    {
+        printf("*");
+    }
 	else
 	{
 		for(Index1 = 1 ; Index1 <= UserNo ; Index1++)
