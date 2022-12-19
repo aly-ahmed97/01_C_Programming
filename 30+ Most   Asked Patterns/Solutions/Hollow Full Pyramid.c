@@ -20,19 +20,22 @@ int main()
 			{
 				printf(" ");
 			}
-			printf("*");
-			for(Index2 = 1 ; Index2 <= Index1 ; Index2++)
-			{
-			    if(Index1 == 1|| Index1 == UserNo)
+			if(Index1 != 1)
+            {
+                printf("*");
+                for(Index2 = 3 ; Index2 <= Index1 ; Index2++)
                 {
-                 printf("*");
+                    if(Index1 == 1|| Index1 == UserNo-1)
+                    {
+                     printf("*");
+                    }
+                    else
+                    {
+                    printf(" ");
+                    }
                 }
-                else
-                {
-                printf(" ");
-                }
-			}
-			printf("*\n");
+            }
+            printf("*\n");
 		}
 	}
 }
