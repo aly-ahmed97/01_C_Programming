@@ -9,9 +9,9 @@ int main()
     scanf("%i",&UserNo);
     for(Index1 = 1 ; Index1 <= UserNo ; Index1++)
     {
-        for(Index2 = 1 ; Index2 <= Index1 ; Index2++)
+        for(Index2 = Index1 ; Index2 <= UserNo ; Index2++)
         {
-            if(Index2 == 1 || Index2 == Index1 || Index1 == UserNo)
+            if(Index2 == Index1 || Index2 == UserNo || Index1 == 1)
             {
               printf("%i",Index2);
             }
