@@ -19,6 +19,10 @@ int main()
 	{
 		for(Index1 = 1 ; Index1 <= UserNo ; Index1++)
 		{
+		    for(Index2 = UserNo ; Index2 > Index1 ; Index2--)
+            {
+                printf(" ");
+            }
 			for(Index2 = 1 ; Index2 <= UserNo ; Index2++)
 			{
 				if(Index1 == 1 || Index1 == UserNo || Index2 == 1 || Index2 == UserNo)
