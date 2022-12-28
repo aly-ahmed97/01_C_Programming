@@ -1,4 +1,4 @@
-trying to solve the most asked patterns in C programming language.
+Solving the most asked patterns in C programming language.
 
 you can find the Patterns in this link  : 
 
